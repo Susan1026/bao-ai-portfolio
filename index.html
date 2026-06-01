@@ -1,0 +1,462 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pink Circuit Persona</title>
+    <meta
+      name="description"
+      content="一个粉色科技感、简约高级、适合电竞少女审美的个人网页。"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header" aria-label="主导航">
+        <a class="brand" href="#top" aria-label="回到首页">
+          <span class="brand-mark"></span>
+          <span>Bao's Lab</span>
+        </a>
+        <nav class="nav-links" aria-label="页面导航">
+          <a href="#work">作品</a>
+          <a href="#signal">状态</a>
+          <a href="#contact">联系</a>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="hero" aria-label="个人介绍">
+          <div class="hero-copy">
+            <p class="eyebrow">AI EXPLOER / PRODUCT THINKER / DIGITAL MUSE</p>
+            <h1>这里是<span>包苏丹</span>的AI探索宇宙</h1>
+            <p class="hero-text">
+              在用户、商业与技术之间，寻找 AI 产品的下一种可能。
+            </p>
+            <div class="hero-actions" aria-label="主要操作">
+              <a class="button primary" href="#work">查看作品</a>
+              <a class="button ghost" href="#contact">建立连接</a>
+            </div>
+          </div>
+
+          <div class="hero-visual ai-dashboard" aria-label="AI探索仪表盘">
+            <span class="frame-corner corner-tl" aria-hidden="true"></span>
+            <span class="frame-corner corner-tr" aria-hidden="true"></span>
+            <span class="frame-corner corner-bl" aria-hidden="true"></span>
+            <span class="frame-corner corner-br" aria-hidden="true"></span>
+            <div class="dashboard-topline">
+              <strong>AI EXPLORER OS</strong>
+              <span>SYSTEM ONLINE</span>
+            </div>
+            <div class="dashboard-grid">
+              <article class="dash-card identity-card">
+                <p>IDENTITY</p>
+                <div class="identity-content">
+                  <h3>AI EXPLORER</h3>
+                  <div class="avatar-frame" aria-hidden="true">
+                    <img src="assets/user-icon.svg" alt="" />
+                  </div>
+                </div>
+                <div class="signal-dots" aria-hidden="true">
+                  <i></i>
+                  <i></i>
+                  <i></i>
+                  <i></i>
+                  <i></i>
+                </div>
+              </article>
+              <article class="dash-card profile-card">
+                <p>PROFILE SIGNAL</p>
+                <h3>2002/ZJU/INTJ</h3>
+              </article>
+              <article class="dash-card focus-card">
+                <p>FOCUS AREA</p>
+                <ul>
+                  <li><span>场景理解</span><i></i></li>
+                  <li><span>用户洞察</span><i></i></li>
+                  <li><span>数据敏感</span><i></i></li>
+                  <li><span>真实价值</span><i></i></li>
+                  <li><span>长期迭代</span><i></i></li>
+                </ul>
+              </article>
+              <article class="dash-card mode-card">
+                <p>CURRENT MODE</p>
+                <h3>PM CANDIDATE</h3>
+                <span>Turning ideas into product demos</span>
+                <div class="wire-cube" aria-hidden="true"></div>
+              </article>
+              <article class="dash-card belief-card">
+                <p>CORE BELIEF</p>
+                <h3>保持好奇心与热情。</h3>
+              </article>
+              <article class="dash-card live-card">
+                <p>LIVE SIGNAL</p>
+                <h3>AI MODE ON</h3>
+                <svg class="signal-wave" viewBox="0 0 220 58" aria-hidden="true" focusable="false">
+                  <polyline points="0,34 30,34 36,32 42,34 70,34 78,38 86,27 96,34 122,34 130,16 140,42 150,8 162,52 174,27 186,35 220,34" />
+                </svg>
+              </article>
+            </div>
+            <div class="dashboard-footer">
+              <span>&gt;&gt; EXPLORING</span>
+              <i></i>
+              <span>///</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- 可复用：横向关键词条模块。需要时移除 hidden 即可显示。 -->
+        <section class="ticker reusable-keyword-strip" aria-label="关键词" hidden>
+          <span>minimal interface</span>
+          <span>pink tech</span>
+          <span>esports mood</span>
+          <span>art direction</span>
+        </section>
+
+        <section id="work" class="section work-section">
+          <div class="section-heading">
+            <p class="eyebrow">SELECTED MODES</p>
+            <h2>把AI想法变成可运行的产品。</h2>
+          </div>
+          <div class="work-grid">
+            <article class="work-card" role="button" tabindex="0" data-project="love">
+              <div class="work-card-top">
+                <span class="card-index">01</span>
+                <span class="work-tag">网站</span>
+              </div>
+              <div class="work-copy">
+                <h3>恋爱记录网站</h3>
+                <p class="work-copy-nowrap">一个轻量、简约、温馨的恋爱记录网站。</p>
+              </div>
+              <div class="work-chip-row" aria-label="恋爱记录网站标签">
+                <span class="work-chip">AI全流程</span>
+                <span class="work-chip">生活痛点</span>
+              </div>
+              <div class="work-meta" aria-label="视觉主理信息">
+                <div>
+                  <span>场景</span>
+                  <strong>生活</strong>
+                </div>
+                <div>
+                  <span>价值</span>
+                  <strong>生活记录 情感陪伴</strong>
+                </div>
+                <div>
+                  <span>状态</span>
+                  <strong><i class="status-dot live"></i>已发布</strong>
+                </div>
+              </div>
+            </article>
+            <article class="work-card" role="button" tabindex="0" data-project="interaction">
+              <div class="work-card-top">
+                <span class="card-index">02</span>
+                <span class="work-tag">agent</span>
+              </div>
+              <div class="work-copy">
+                <h3>基于飞书的企业知识整合与分发<span class="agent-word">agent</span></h3>
+                <p>支持从飞书文档、群聊、会议纪要等多源信息中自动识别并沉淀待办事项。</p>
+              </div>
+              <div class="work-meta" aria-label="企业知识整合与分发agent信息">
+                <div>
+                  <span>场景</span>
+                  <strong>办公</strong>
+                </div>
+                <div>
+                  <span>价值</span>
+                  <strong>办公提效</strong>
+                </div>
+                <div>
+                  <span>状态</span>
+                  <strong><i class="status-dot live"></i>已完成</strong>
+                </div>
+              </div>
+            </article>
+            <article class="work-card idea-card" aria-label="更多idea待更新">
+              <h3>更多idea待更新</h3>
+            </article>
+            <article class="project-detail" id="project-detail" hidden>
+              <div class="detail-rail" aria-hidden="true">
+                <span>PROJECT<br />DETAIL</span>
+                <i></i>
+                <em>01</em>
+              </div>
+              <div class="detail-main">
+                <div class="detail-header">
+                  <div>
+                    <p class="eyebrow">PROJECT DETAIL</p>
+                    <h3 id="detail-title">恋爱记录网站</h3>
+                    <p id="detail-subtitle">全程使用 AI 工具独立完成从需求、开发到上线的全流程产品实践。</p>
+                  </div>
+                  <div class="detail-actions">
+                    <a class="detail-link" id="detail-link" href="https://grand-cupcake-05c5a8.netlify.app" target="_blank" rel="noopener noreferrer">
+                      项目链接
+                    </a>
+                    <button class="detail-close" type="button" aria-label="收起项目详情">收起</button>
+                  </div>
+                </div>
+
+                <div class="detail-layout" id="detail-layout">
+                  <section class="detail-panel project-background">
+                    <h4 id="background-title">项目背景</h4>
+                    <div id="background-content">
+                      <p>
+                        市面上的主流恋爱记录App（如恋爱记）不断做加法，存在功能冗余与广告泛滥的问题，导致核心“记录与回顾”体验被稀释。于是我做了这个只属于我们的网站——轻量、纯粹，只专注三件事：
+                      </p>
+                      <ul>
+                        <li>好好记下每一个平凡而又珍贵的日常</li>
+                        <li>清晰看见一起走过的日子</li>
+                        <li>温柔提醒每一个值得纪念的瞬间</li>
+                      </ul>
+                      <p>
+                        通过极简设计和轻量化实现，回归「记录与回忆」的本质。未来我会持续优化它，希望有一天它也能为少数同频的人提供一个安静的小角落。
+                      </p>
+                    </div>
+                  </section>
+
+                  <section class="detail-panel process-panel" id="detail-process">
+                    <h4>流程</h4>
+                    <div class="process-flow" aria-label="项目流程">
+                      <div><span>01</span><strong>想法梳理</strong><em>豆包、ChatGPT、Gemini</em></div>
+                      <i></i>
+                      <div><span>02</span><strong>UI设计</strong><em>Figma Make、飞书妙搭</em></div>
+                      <i></i>
+                      <div><span>03</span><strong>开发实现</strong><em>飞书妙搭、Cursor、Claude Code、Trae、Antigravity</em></div>
+                      <i></i>
+                      <div><span>04</span><strong>数据存储</strong><em>Supabase</em></div>
+                      <i></i>
+                      <div><span>05</span><strong>上线部署</strong><em>Netlify</em></div>
+                    </div>
+                  </section>
+
+                  <section class="detail-panel preview-panel" id="detail-preview">
+                    <h4 id="preview-title">作品预览</h4>
+                    <div class="preview-gallery" id="preview-gallery" aria-label="恋爱记录网站预览">
+                      <figure class="preview-window">
+                        <img src="assets/love-site-preview.jpg" alt="恋爱记录网站桌面端作品预览截图" />
+                      </figure>
+                      <figure class="preview-window portrait-preview">
+                        <img src="assets/love-site-mobile-preview.png" alt="恋爱记录网站移动端作品预览截图" />
+                      </figure>
+                    </div>
+                  </section>
+
+                  <aside class="detail-panel feedback-panel" id="detail-feedback">
+                    <h4>反馈 <span>小红书</span></h4>
+                    <div class="feedback-metric">
+                      <i aria-hidden="true">◉</i>
+                      <strong>2w+</strong>
+                      <span>浏览量</span>
+                    </div>
+                    <div class="feedback-metric">
+                      <i aria-hidden="true">☆</i>
+                      <strong>2k+</strong>
+                      <span>点赞收藏</span>
+                    </div>
+                  </aside>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <!-- 可恢复：CURRENT SIGNAL 状态展示模块。需要时取消注释即可显示。
+        <section id="signal" class="section signal-section">
+          <div class="signal-copy">
+            <p class="eyebrow">CURRENT SIGNAL</p>
+            <h2>冷静、精准、漂亮地上场。</h2>
+            <p>
+              页面气质以粉色为核心，但用墨黑、银白和少量青色把甜感压住。它借用了电竞设备的光环、透明面板和战术 HUD，却保持简约克制，适合作为设计师、主播、游戏创作者或视觉型个人 IP 的首页。
+            </p>
+          </div>
+          <div class="signal-board" aria-label="当前状态指标">
+            <div>
+              <span>Focus</span>
+              <strong>88</strong>
+            </div>
+            <div>
+              <span>Aura</span>
+              <strong>Pink</strong>
+            </div>
+            <div>
+              <span>Mode</span>
+              <strong>Solo</strong>
+            </div>
+          </div>
+        </section>
+        -->
+
+        <section id="contact" class="section contact-section">
+          <p class="eyebrow">READY TO QUEUE</p>
+          <h2>期待和你交流更多有趣的想法。</h2>
+          <div class="contact-card" aria-label="联系方式">
+            <span>包苏丹</span>
+            <a href="mailto:131634380208@163.com">131634380208@163.com</a>
+            <a href="https://github.com/Susan1026" target="_blank" rel="noopener noreferrer">GitHub：Susan1026</a>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script>
+      if ("scrollRestoration" in history) {
+        history.scrollRestoration = "manual";
+      }
+
+      if (location.hash) {
+        history.replaceState(null, "", location.pathname + location.search);
+      }
+
+      function showHeroOnOpen() {
+        requestAnimationFrame(() => window.scrollTo(0, 0));
+      }
+
+      window.addEventListener("pageshow", showHeroOnOpen);
+      showHeroOnOpen();
+
+      const workCards = document.querySelectorAll(".work-card");
+      const detailPanel = document.querySelector("#project-detail");
+      const detailLayout = document.querySelector("#detail-layout");
+      const detailTitle = document.querySelector("#detail-title");
+      const detailSubtitle = document.querySelector("#detail-subtitle");
+      const detailLink = document.querySelector("#detail-link");
+      const backgroundContent = document.querySelector("#background-content");
+      const previewTitle = document.querySelector("#preview-title");
+      const previewGallery = document.querySelector("#preview-gallery");
+      const detailProcess = document.querySelector("#detail-process");
+      const detailFeedback = document.querySelector("#detail-feedback");
+      const closeDetail = document.querySelector(".detail-close");
+
+      const loveBackground = `
+        <p>
+          市面上的主流恋爱记录App（如恋爱记）不断做加法，存在功能冗余与广告泛滥的问题，导致核心“记录与回顾”体验被稀释。于是我做了这个只属于我们的网站——轻量、纯粹，只专注三件事：
+        </p>
+        <ul>
+          <li>好好记下每一个平凡而又珍贵的日常</li>
+          <li>清晰看见一起走过的日子</li>
+          <li>温柔提醒每一个值得纪念的瞬间</li>
+        </ul>
+        <p>
+          通过极简设计和轻量化实现，回归「记录与回忆」的本质。未来我会持续优化它，希望有一天它也能为少数同频的人提供一个安静的小角落。
+        </p>
+      `;
+
+      const lovePreview = `
+        <figure class="preview-window">
+          <img src="assets/love-site-preview.jpg" alt="恋爱记录网站桌面端作品预览截图" />
+        </figure>
+        <figure class="preview-window portrait-preview">
+          <img src="assets/love-site-mobile-preview.png" alt="恋爱记录网站移动端作品预览截图" />
+        </figure>
+      `;
+
+      const projectDetails = {
+        love: {
+          title: "恋爱记录网站",
+          subtitle: "全程使用 AI 工具独立完成从需求、开发到上线的全流程产品实践。",
+          link: "https://grand-cupcake-05c5a8.netlify.app",
+          background: loveBackground,
+          previewTitle: "作品预览",
+          preview: lovePreview,
+          previewLabel: "恋爱记录网站预览",
+          variant: "love",
+          showProcess: true,
+          showFeedback: true,
+        },
+        interaction: {
+          title: "基于飞书的企业知识整合与分发agent",
+          subtitle: "",
+          link: "https://github.com/d-codelab/Feishu_Intelligent_Workplace_Agent",
+          background: `
+            <p>
+              在企业内部，真正有价值的信息往往散落在数十篇飞书文档、漫长的飞书会议妙记以及海量的群聊、任务和邮件中。传统的知识管理通常是“被动”的——员工必须知道去哪里搜、搜什么关键词。
+            </p>
+            <p>
+              <strong>场景描述：</strong>不只是分散记录待办的“收集器”，而是一个“团队重点事项追踪表自动维护器”。它能周期性地从飞书文档内容、文档评论、会议纪要等来源识别并汇总团队重点事项中的各类 Todo，自动整理进统一表格，补齐负责人、优先级、截止时间和关联背景链接；同时持续同步任务进展、最新状态和阻塞原因，帮助团队形成一份可追踪、可分派、可预警的“重点事项推进总表”。
+            </p>
+            <p>
+              本项目利用 OpenClaw、CLI 和飞书生态，尝试打破信息孤岛，构建了一个能“主动分发与推送”的智能知识助手。
+            </p>
+            <div class="agent-points" aria-label="项目能力">
+              <span>多源识别</span>
+              <span>待办沉淀</span>
+              <span>主动推送</span>
+            </div>
+          `,
+          previewTitle: "截图",
+          preview: `
+            <figure class="preview-window agent-preview-window">
+              <img src="assets/feishu-agent-preview.jpg" alt="飞书企业知识整合与分发agent项目截图" />
+            </figure>
+          `,
+          previewLabel: "飞书企业知识整合与分发agent截图",
+          variant: "agent",
+          showProcess: false,
+          showFeedback: false,
+        },
+      };
+
+      let activeProject = null;
+
+      function setDetail(projectKey) {
+        const project = projectDetails[projectKey];
+        if (!project) return;
+        const shouldClose = activeProject === projectKey && !detailPanel.hidden;
+
+        workCards.forEach((card) => {
+          const isActive = !shouldClose && card.dataset.project === projectKey;
+          card.classList.toggle("is-active", isActive);
+          card.setAttribute("aria-expanded", String(isActive));
+        });
+
+        if (shouldClose) {
+          detailPanel.hidden = true;
+          activeProject = null;
+          return;
+        }
+
+        detailTitle.textContent = project.title;
+        detailSubtitle.textContent = project.subtitle;
+        detailSubtitle.hidden = !project.subtitle;
+        backgroundContent.innerHTML = project.background;
+        previewTitle.textContent = project.previewTitle;
+        previewGallery.innerHTML = project.preview;
+        previewGallery.setAttribute("aria-label", project.previewLabel || "项目预览");
+        previewGallery.hidden = !project.preview;
+        detailLayout.className = `detail-layout is-${project.variant}-detail`;
+        detailProcess.hidden = !project.showProcess;
+        detailFeedback.hidden = !project.showFeedback;
+        detailLink.hidden = !project.link;
+        if (project.link) {
+          detailLink.href = project.link;
+        }
+        detailPanel.hidden = false;
+        activeProject = projectKey;
+      }
+
+      workCards.forEach((card) => {
+        card.setAttribute("aria-expanded", "false");
+        card.addEventListener("click", () => setDetail(card.dataset.project));
+        card.addEventListener("keydown", (event) => {
+          if (!card.dataset.project) return;
+          if (event.key === "Enter" || event.key === " ") {
+            event.preventDefault();
+            setDetail(card.dataset.project);
+          }
+        });
+      });
+
+      closeDetail.addEventListener("click", () => {
+        detailPanel.hidden = true;
+        activeProject = null;
+        workCards.forEach((card) => {
+          card.classList.remove("is-active");
+          card.setAttribute("aria-expanded", "false");
+        });
+      });
+    </script>
+  </body>
+</html>
